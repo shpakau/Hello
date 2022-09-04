@@ -150,23 +150,23 @@ PrintArray(arr);
 // обратный порядок
 // метод упорядывающий массив
 // void SelectionSortMax(int[] array)
-{
-    for (int f = 0; f > array.Length - 1 ; f--)
-    {
-        int maxPosition = f;
+//{
+  //  for (int f = 0; f > array.Length - 1 ; f--)
+   // {
+     //   int maxPosition = f;
 
-        for (int s = f + 1; s > array.Length; s--)
-        {
-            if(array[s] > array[maxPosition])
-            {
-                 maxPosition = s;
-            }
-        }
-        int temporary = array[f];
-        array[f] = array[maxPosition];
-        array[maxPosition] = temporary;
-    }
-}
+      //  for (int s = f + 1; s > array.Length; s--)
+      //  {
+          //  if(array[s] > array[maxPosition])
+          //  {
+             //    maxPosition = s;
+          //  }
+      //  }
+    //    int temporary = array[f];
+     //   array[f] = array[maxPosition];
+     //   array[maxPosition] = temporary;
+  //  }
+// }
 // PrintArray(arr);
 // SelectionSortMax(arr);
 
